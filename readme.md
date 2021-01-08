@@ -14,6 +14,6 @@ The page(s) are responsive and will adapt to the users size of screen.
 
 ## Links
 
-https://sethglenn.github.io/assets/
+
 
     
