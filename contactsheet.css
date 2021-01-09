@@ -1,11 +1,20 @@
-.photo{
-    width: auto;
-    height: auto;
+html, body{
+    height: 100%;
+    margin: 0;
 }
-.contact{
+.bg {
+    background-size: contain;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+#btm-half {
+    /* background-image: url("./photos/pexels-life-of-pix-8892.jpg"); */
+    background-color: gray;
+}
+.contact {
     color:rgb(248, 26, 26);
 }
-.nav2{
+.nav2 {
     overflow: show;
 }
 ul {
@@ -30,5 +39,6 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    /* background-color: #111; */
+    color: red;
   }
