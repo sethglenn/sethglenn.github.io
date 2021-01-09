@@ -2,12 +2,14 @@ html, body{
     height: 100%;
     margin: 0;
 }
+.rowpush {
+    padding-left: 664px;
+}
 .contact-me {
     margin-left: 40px;
     font-family: fantasy;
     font-size: 85px;
     padding-top: 184px;
-    margin-left: 694px;
 }
 .bg {
     background-size: contain;
@@ -21,7 +23,7 @@ html, body{
 }
 .bottom {
     margin-top: -20px;
-    padding-top: 483px;
+    padding-top: 172px;
 }
 .contact {
     color:rgb(248, 26, 26);
