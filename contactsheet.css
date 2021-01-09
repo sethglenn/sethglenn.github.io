@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 .rowpush {
@@ -12,14 +13,15 @@ html, body{
     padding-top: 184px;
 }
 .bg {
-    background-size: contain;
+    background-size:cover;
     background-size: 2250px;
     background-repeat: no-repeat;
 }
 #btm-half {
     /* background-image: url("./photos/pexels-life-of-pix-8892.jpg"); */
     background-color: gray;
-    margin-left: 0px;
+    margin-left: -12px;
+    height: 700px;
 }
 .bottom {
     margin-top: -20px;
