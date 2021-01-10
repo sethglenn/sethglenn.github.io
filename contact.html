@@ -24,9 +24,23 @@
     </section>
     <section class="container-fluid bottom">
         <div class="row" id="btm-half">
-            <i class="fab fa-linkedin" style="font-size: 100px;"></i>
+            <div class="row">
+                <i class="fab fa-github-square col-1 link-push link-push2" style="font-size: 100px;">
+                    <p style="font-size: 25px;">GitHub</p>
+                </i>
+                <i class="fab fa-linkedin col-1 link-push2" style="font-size: 100px;">
+                    <p style="font-size: 25px;">LinkedIn</p>
+                </i>
+                <i class="fas fa-envelope-square col-1 link-push2" style="font-size: 100px;">
+                    <p style="font-size: 25px;">Email</p>
+                </i>
+                <i class="fas fa-file-alt col-1 link-push2" style="font-size: 90px;">
+                    <p style="font-size: 25px;">Resume</p>
+                </i>
+            </div>
             <form>
                 <div class="card-back">
+                    <p class="message-padding">Send me a Message</p>
                 <div class="form-group formshrink">
                   <label for="exampleFormControlInput1">Name</label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -39,9 +53,12 @@
                   <label for="exampleFormControlTextarea1">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
                 </div>
-            </div>
-              </form>
-            </div>
+                <div class="row row-edit">
+                    <button type="button" class="fas fa-paper-plane col-1 submit"></button>
+                </div>
+                </div>
+            </form>
+        </div>
     </section>
     <footer class="d-flex justify-content-center">
         © Seth Glenn 2021
