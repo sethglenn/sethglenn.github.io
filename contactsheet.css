@@ -4,26 +4,26 @@ html, body{
     margin: 0;
 }
 footer {
-    background-color:rgb(89, 122, 112);
+    background-color:rgb(93, 129, 118);
+    padding: 17px;
 }
 form {
-    padding-top: 350px;
+    padding-top: 300px;
+}
+.fab {
+    position: relative;
 }
 .container-fluid{
     position: relative;
 }
 .form-back{
-    background-color: lightblue;
     position: absolute;
     padding: 30px;
     max-width: 50%;
 }
-.row {
-    
-}
 .formshrink {
-    padding-left: 570px;
-    padding-right: 602px;
+    padding-left: 32px;
+    padding-right: 18px;
 }
 .rowpush {
     padding-left: 664px;
@@ -41,17 +41,25 @@ form {
 }
 #btm-half {
     /* background-image: url("./photos/pexels-life-of-pix-8892.jpg"); */
-    background-color: gray;
+    background-color: rgb(108, 110, 97);
     margin-left: -12px;
     height: 700px;
     position:relative;
+}
+.card-back {
+    background-color: rgb(93, 129, 118);
+    margin-right: 676px;
+    margin-left: 600px;
+    padding-bottom: 20px;
+    padding-top: 14px;
+    border-radius: 30px;
 }
 .bottom {
     margin-top: -20px;
     padding-top: 172px;
 }
 .contact {
-    color:rgb(248, 26, 26);
+    color:rgb(93, 129, 118);
 }
 .nav2 {
     overflow: show;
@@ -79,5 +87,5 @@ ul {
   
   li a:hover {
     /* background-color: #111; */
-    color: red;
+    color: rgb(93, 129, 118);
   }
