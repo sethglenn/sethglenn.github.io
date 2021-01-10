@@ -3,6 +3,28 @@ html, body{
     width: 100%;
     margin: 0;
 }
+footer {
+    background-color:rgb(89, 122, 112);
+}
+form {
+    padding-top: 350px;
+}
+.container-fluid{
+    position: relative;
+}
+.form-back{
+    background-color: lightblue;
+    position: absolute;
+    padding: 30px;
+    max-width: 50%;
+}
+.row {
+    
+}
+.formshrink {
+    padding-left: 570px;
+    padding-right: 602px;
+}
 .rowpush {
     padding-left: 664px;
 }
@@ -22,6 +44,7 @@ html, body{
     background-color: gray;
     margin-left: -12px;
     height: 700px;
+    position:relative;
 }
 .bottom {
     margin-top: -20px;
