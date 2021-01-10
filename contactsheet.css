@@ -7,6 +7,13 @@ footer {
     background-color:rgb(93, 129, 118);
     padding: 17px;
 }
+.font {
+    font-weight: normal;
+}
+.font2 {
+    padding-left: 12px;
+    font-weight: normal;
+}
 .link-push {
     margin-left: 628px;
 }
