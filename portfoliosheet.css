@@ -1,33 +1,55 @@
 .bg {
-    background-size:cover;
-    background-size: 2250px;
-    background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36%;
+  margin-top: -16px;
+  background-image: url("./photos/photo-1542831371-29b0f74f9713.jpg");
 }
 .contact {
-    color:rgb(180, 2, 66);
+  color: rgb(180, 2, 66);
+}
+.footerpush {
+  padding-bottom: 20px;
+}
+footer {
+  background-color: rgb(180, 2, 66);
+  margin-top: 840px;
+  padding-top: 25px;
+  position: relative;
+}
+.btm-half {
+  background-color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: show;
-    background-color: #333;
-  }
-  
-  li {
-    float: right;
-    font-size: 25px;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    /* background-color: #111; */
-    color: rgb(180, 2, 66);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: show;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  font-size: 25px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container-fluid{
+    position: relative;
+}
+li a:hover {
+  /* background-color: #111; */
+  color: rgb(180, 2, 66);
+}
