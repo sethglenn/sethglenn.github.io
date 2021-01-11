@@ -6,21 +6,28 @@
   margin-top: -16px;
   background-image: url("./photos/photo-1542831371-29b0f74f9713.jpg");
 }
+.btn-edit {
+    margin-left: 160px;
+}
 .text {
     font-size: 20px;
     padding: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.break {
+    background-color: white;
+    font-size: 10px;
+}
 .portcard {
     background-color: rgb(11,123,152);
     padding: 20px;
     margin: 20px;
-    margin-left: 412px;
+    margin-left: 400px;
 }
 .imgSize {
     width: 400px;
     height: 233px;
-    padding-left: 37px;
+    margin-left: 17px;
 }
 .portcard2 {
     background-color: rgb(11,123,152);
@@ -41,14 +48,15 @@ footer {
   padding-top: 25px;
   position: relative;
 }
-.btm-half {
-  background-color: white;
+.color {
+    background-color: rgb(43,43,53);
+    margin-top: -10px;
 }
-
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: rgb(43,43,53);
 }
 ul {
   list-style-type: none;
@@ -76,4 +84,13 @@ li a {
 li a:hover {
   /* background-color: #111; */
   color: rgb(180, 2, 66);
+}
+  button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
