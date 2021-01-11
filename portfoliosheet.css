@@ -6,6 +6,19 @@
   margin-top: -16px;
   background-image: url("./photos/photo-1542831371-29b0f74f9713.jpg");
 }
+.portcard {
+    background-color: rgb(11,123,152);
+    padding: 20px;
+    margin: 20px;
+    margin-left: 530px;
+}
+.portcard2 {
+    background-color: rgb(11,123,152);
+    padding: 20px;
+    margin: 20px;
+    margin-left: 200px;
+    padding-bottom: 215px;
+}
 .contact {
   color: rgb(180, 2, 66);
 }
@@ -24,6 +37,7 @@ footer {
 
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
 }
 ul {
