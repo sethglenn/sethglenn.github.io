@@ -1,16 +1,27 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .bg {
-        background-size:stretch;
+        /* background-size:stretch; */
         /* background-size: 2250px; */
         background-repeat: no-repeat;
+        background-image: url("./photos/photo-1501756958875-56125c5fb897.jpg");
     }
     .navmobile {
         visibility: hidden;
     }
-    html, body {
-        margin: 0;
-        size: auto;
+    html {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;  
     }
     .main-text {
         padding-left: 0px;

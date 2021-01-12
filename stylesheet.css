@@ -1,10 +1,10 @@
 .about{
   color:rgb(50, 36, 253);
 }
-.mobile {
-  visibility: hidden;
-  margin-right: 4000px;
-  margin-top: -70px;
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./photos/photo-1501756958875-56125c5fb897.jpg");
 }
 ul {
     list-style-type: none;
