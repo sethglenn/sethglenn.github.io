@@ -3,8 +3,10 @@
     .bg {
         /* background-size:stretch; */
         /* background-size: 2250px; */
+        background-size: 375px 812px;
         background-repeat: no-repeat;
-        background-image: url("./photos/photo-1501756958875-56125c5fb897.jpg");
+        background-image: url("./photos/mobileBG.jpg");
+        visibility: visible;
     }
     .navmobile {
         visibility: hidden;
