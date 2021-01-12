@@ -1,7 +1,11 @@
 .about{
   color:rgb(50, 36, 253);
 }
-
+.mobile {
+  visibility: hidden;
+  margin-right: 4000px;
+  margin-top: -70px;
+}
 ul {
     list-style-type: none;
     margin: 0;
