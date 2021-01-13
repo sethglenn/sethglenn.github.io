@@ -28,16 +28,19 @@
     .main-text {
         padding-left: 0px;
         padding-top: 0px;
+        width: 200px;
     }
     .main-text2 {
         padding-left: 0px;
         font-size: 27px;
+        width: 350px;
     }
     .main-text3 {
         padding-left: 0px;
         font-size: 50px;
         margin-left: 83px;
         margin-top: -20px;
+        width: 250px;
     }
     .button {
         padding-left: 57px;
