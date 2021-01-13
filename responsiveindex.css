@@ -47,6 +47,19 @@
         margin-top: 170px;
         margin-left: 0px;
     }
+    p{
+        font-family: "Courier";
+        font-size: 20px;
+        margin: 10px 0 0 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 30em;
+        animation: type 1s steps(60, end); 
+      }
+      
+      @keyframes type{ 
+        from { width: 0; } 
+      } 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
