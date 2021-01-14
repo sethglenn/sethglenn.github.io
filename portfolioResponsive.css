@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+    .bg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 72%;
+        width: 825px;
+    }
+    .text {
+        font-size: 27px;
+    }
+    .text-edit2 {
+        padding-left: 148px;
+    }
+    #mobile {
+        width: 864px;
+    }
+    .btn-edit {
+        margin-left: 208px;
+    }
+    .imgSize {
+        margin-left: 60px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    .adjust {
+        color: transparent;
+    }
+    #portcard {
+        margin-left: 138px;
+        width: 568px;
+        height: 556px;
+        padding: 20px;
+    }
+    #portcard2 {
+        width: 464px;
+    }
+    .break {
+        width: 853px;
+    }
+      .mobile-container {
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+        visibility: visible;
+      }
+      .nav2 {
+          visibility: hidden;
+      }
+      .topnav {
+        overflow: hidden;
+        position: relative;
+        width: 828px;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+          color: inherit;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 65px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: inherit;
+        color: inherit;
+      }
+      
+      .active {
+        color: white;
+      }
+
+}

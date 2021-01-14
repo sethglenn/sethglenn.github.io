@@ -6,6 +6,10 @@
   margin-top: -16px;
   background-image: url("./photos/photo-1542831371-29b0f74f9713.jpg");
 }
+.mobile-container {
+  visibility: hidden;
+  height: 0px;
+}
 .text-edit {
   padding-left: 70px;
   font-size: 25px;

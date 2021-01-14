@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfoliosheet.css">
+    <link rel="stylesheet" href="portfolioResponsive.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -12,6 +13,21 @@
 </head>
 
 <body class="color">
+        <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <div class="adjust">
+          <a href="#home" class="active">Projects</a>
+        </div>
+          <div id="myLinks">
+            <a href="./index.html">About</a>
+            <a href="./contact.html">Contact Me</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </div>
     <section class="container-fluid">
         <ul class="nav2">
             <li><a href="./contact.html">Contact</a></li>
@@ -21,8 +37,8 @@
     </section>
     <div class="bg"></div>
     <div class="break">.</div>
-    <section class="container-fluid row">
-        <div class="portcard col-3 mt-5">
+    <section id="mobile" class="container-fluid row">
+        <div id="portcard" class="portcard col-lg-3 mt-5">
             <div class="text-edit2">Password Generator</div>
             <img class="imgSize border border-dark" src="./photos/pwdGen.png" alt="pwdGen">
             <div class="text">A fully functional Password Generator. Capable of generating a random password at various
@@ -100,6 +116,16 @@
     <footer class="d-flex justify-content-center fw-bold">
         <div class="footerpush row">© Seth Glenn 2021</div>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
     <script src="https://kit.fontawesome.com/f4e19a21b7.js" crossorigin="anonymous"></script>
 </body>
 
