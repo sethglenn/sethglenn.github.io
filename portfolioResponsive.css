@@ -4,22 +4,48 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 72%;
-        width: 825px;
+        width: 376px;
     }
     .text {
-        font-size: 27px;
+        font-size: 21px;
     }
     .text-edit2 {
-        padding-left: 148px;
+        padding-left: 77px;
+    }
+    .text-edit {
+      padding-left: 39px;
+    }
+    .text-edit3 {
+      padding-left: 73px;
+    };
+    .text-edit4 {
+      padding-left: 91px;
+    }
+    .text-edit5 {
+      padding-left: 75px;
+    }
+    .text-edit6 {
+      padding-left: 99px;
     }
     #mobile {
-        width: 864px;
+        width: 376px;
     }
     .btn-edit {
-        margin-left: 208px;
+        margin-left: 79px;
     }
     .imgSize {
-        margin-left: 60px;
+        margin-left: -9px;
+        width: 270px;
+        height: 181px
+    }
+    .imgSize2 {
+      margin-left: 3px;
+    }
+    .imgSize3 {
+      margin-left: 3px;
+    }
+    .imgSize4 {
+      margin-left: 3px;
     }
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -28,16 +54,23 @@
         color: transparent;
     }
     #portcard {
-        margin-left: 138px;
-        width: 568px;
+        margin-left: 31px;
+        width: 292px;
         height: 556px;
         padding: 20px;
     }
     #portcard2 {
-        width: 464px;
+        width: 303px;
+        margin-left: 27px;
+    }
+    #portcard3 {
+      height: 615px;
+      padding: 20px;
+      margin-left: 31px;
+      width: 292px;
     }
     .break {
-        width: 853px;
+        width: 376px;
     }
       .mobile-container {
         margin: auto;
@@ -51,7 +84,7 @@
       .topnav {
         overflow: hidden;
         position: relative;
-        width: 828px;
+        width: 374px;
       }
       
       .topnav #myLinks {
@@ -62,7 +95,7 @@
           color: inherit;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 65px;
+        font-size: 40px;
         display: block;
       }
       
