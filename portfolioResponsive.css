@@ -17,15 +17,18 @@
     }
     .text-edit3 {
       padding-left: 73px;
-    };
-    .text-edit4 {
-      padding-left: 91px;
     }
     .text-edit5 {
       padding-left: 75px;
+      
     }
     .text-edit6 {
       padding-left: 99px;
+    }
+    .text-edit7 {
+      padding-left: 90px;
+      font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     #mobile {
         width: 376px;
