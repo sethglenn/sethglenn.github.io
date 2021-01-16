@@ -1,6 +1,5 @@
 @media only screen and (max-width: 600px) {
   .bg {
-    background: url('./photos/pexels-johnmark-smith-281962.jpg') no-repeat;
     background-size: cover;
     background-position: left;
   }
@@ -39,9 +38,9 @@
   }
   .mobile-container {
     margin: auto;
-    color: white;
     border-radius: 10px;
     visibility: visible;
+    height: auto;
   }
   .nav2 {
     visibility: hidden;

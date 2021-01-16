@@ -58,7 +58,7 @@ footer {
     padding-top: 184px;
 }
 .bg {
-    background: url("./photos/pexels-johnmark-smith-281962.jpg");
+    background-image: url("./photos/pexels-johnmark-smith-281962.jpg");
     background-size:cover;
     background-size: 2250px;
     background-repeat: no-repeat;
