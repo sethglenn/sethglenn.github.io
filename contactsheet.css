@@ -110,6 +110,7 @@ ul {
   li {
     float: right;
     font-size: 25px;
+    padding-top: 15px;
   }
   
   li a {

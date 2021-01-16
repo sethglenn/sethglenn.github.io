@@ -1,55 +1,84 @@
 @media only screen and (max-width: 600px) {
-    .mobile-container {
-        margin: auto;
-        color: white;
-        border-radius: 10px;
-        visibility: visible;
-      }
-      .bg {
-        background: url(./photos/pexels-johnmark-smith-281962.jpg) no-repeat;
-        background-size: cover;
-        background-position: left;
-      }
-      .nav2 {
-          visibility: hidden;
-      }
-      .rowpush {
-        padding-left: 0px;
-      }
-      .topnav {
-        overflow: hidden;
-        position: relative;
-        width: 374px;
-      }
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      .topnav a {
-        color: inherit;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 40px;
-        display: block;
-      }
-      
-      .topnav a.icon {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .topnav a:hover {
-        background-color: inherit;
-        color: inherit;
-      }
-      
-      .active {
-        color: white;
-      }
-      .adjust {
-        color: transparent;
-    }
+  .bg {
+    background: url('./photos/pexels-johnmark-smith-281962.jpg') no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .link-push {
+    margin-left: 0px;
+  }
+  #btm-half {
+    height: 789px;
+  }
+  .LinkedIn {
+    padding-left: 160px;
+    padding-right: 99px;
+  }
+  .email {
+    padding-left: 52px;
+  }
+  .gitHub {
+    padding-left: 49px;
+  }
+  .resume {
+    padding-left: 163px;
+  }
+  .rowpush {
+    padding-left: 0px;
+  }
+  #buttonMobile {
+    padding-right: 30px;
+  }
+  .message-padding {
+    font-size: 20px;
+    padding-left: 87px;
+}
+  .card-back {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .mobile-container {
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    visibility: visible;
+  }
+  .nav2 {
+    visibility: hidden;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    width: 374px;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
 
+  .topnav a {
+    color: inherit;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .active {
+    color: white;
+  }
+  .adjust {
+    color: transparent;
+  }
 }
