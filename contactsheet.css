@@ -7,8 +7,16 @@ footer {
     background-color:rgb(93, 129, 118);
     padding: 17px;
 }
+.mobile-container {
+    visibility: hidden;
+    height: 0px;
+  }
 .font {
     font-weight: normal;
+}
+#borderFix {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .font2 {
     padding-left: 12px;
@@ -50,9 +58,11 @@ footer {
     padding-top: 184px;
 }
 .bg {
+    background: url("./photos/pexels-johnmark-smith-281962.jpg");
     background-size:cover;
     background-size: 2250px;
     background-repeat: no-repeat;
+    margin-top: -16px;
 }
 #btm-half {
     /* background-image: url("./photos/pexels-life-of-pix-8892.jpg"); */
@@ -80,7 +90,7 @@ footer {
     padding-left: 200px;
 }
 .bottom {
-    margin-top: -20px;
+    margin-top: -160px;
     padding-top: 172px;
 }
 .contact {

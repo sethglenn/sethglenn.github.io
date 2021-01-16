@@ -5,8 +5,16 @@
         border-radius: 10px;
         visibility: visible;
       }
+      .bg {
+        background: url(./photos/pexels-johnmark-smith-281962.jpg) no-repeat;
+        background-size: cover;
+        background-position: left;
+      }
       .nav2 {
           visibility: hidden;
+      }
+      .rowpush {
+        padding-left: 0px;
       }
       .topnav {
         overflow: hidden;
