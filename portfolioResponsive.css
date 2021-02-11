@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     .bg {
-        background-position: center;
-        background-repeat: no-repeat;
+        background-position: center;background-repeat: no-repeat;
+        
         background-size: cover;
         height: 72%;
         width: 376px;

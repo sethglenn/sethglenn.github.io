@@ -1,10 +1,8 @@
 @media only screen and (max-width: 600px) {
   .bg {
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: left;
-  }
-  .test2{
-    
   }
   .link-push {
     margin-left: 0px;
@@ -50,7 +48,7 @@
   }
   .topnav {
     overflow: hidden;
-    position: relative;
+    position: absolute;
     width: 374px;
   }
   .topnav #myLinks {
@@ -70,6 +68,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 1;
   }
 
   .topnav a:hover {
