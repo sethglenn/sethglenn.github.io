@@ -1,5 +1,5 @@
 .about{
-  color:rgb(50, 36, 253);
+  color: rgb(180, 2, 66);
 }
 .bg {
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ ul {
   
   li a:hover {
     /* background-color: #111; */
-    color: blue;
+    color: rgb(180, 2, 66);
   }
 .main-text {
     color: white;
@@ -47,7 +47,7 @@ ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .main-text3{
-    color:rgb(50, 36, 253);
+  color: rgb(180, 2, 66);
     padding-left: 800px;
     font-size: 50px;
     margin-left: 15px;
