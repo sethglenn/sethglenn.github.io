@@ -26,7 +26,11 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  .button2:hover {
+    /* background-color: #111; */
+    color: rgb(180, 2, 66);
+  }
+
   li a:hover {
     /* background-color: #111; */
     color: rgb(180, 2, 66);

@@ -4,8 +4,15 @@
     background-repeat: no-repeat;
     background-position: left;
   }
+  .container-fluid {
+    z-index: 0;
+  }
+  .test3 {
+    z-index: 1;
+  }
   .contact-me {
     margin-left: 14px;
+    font-style: normal;
     font-family: fantasy;
     font-size: 64px;
     padding-top: 348px;
