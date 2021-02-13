@@ -81,7 +81,7 @@
                             rows="3"></textarea>
                     </div>
                     <div class="row row-edit">
-                        <button id="buttonMobile" type="submit" value="Submit" class="fas fa-paper-plane col-1 submit"></button>
+                        <button id="buttonMobile" type="submit" value="Submit" onclick="email()" class="fas fa-paper-plane col-1 submit"></button>
                     </div>
                 </div>
             </form>
@@ -98,6 +98,9 @@
             } else {
                 x.style.display = "block";
             }
+        }
+        function email() {
+            alert("Your message has been sent!")
         }
     </script>
     <script src="https://kit.fontawesome.com/f4e19a21b7.js" crossorigin="anonymous"></script>
