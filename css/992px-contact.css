@@ -1,0 +1,21 @@
+@media only screen and (min-width: 600px) {
+    .bg {
+        width: 100%;
+    }
+    .contact-me {
+        margin-left: 161px;
+        padding-top: 464px;
+    }
+    .link-push {
+        padding-left: 20px;
+    }
+    .LinkedIn {
+        padding-left: 110px;
+    }
+     .topnav {
+        margin-left: 214px;
+    }
+    .test3 {
+        
+    }
+}
